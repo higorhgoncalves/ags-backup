@@ -157,10 +157,10 @@ const options = mkOptions(OPTIONS, {
             max: opt(6),
             favorites: opt([
                 [
-                    "firefox",
-                    "wezterm",
                     "org.gnome.Nautilus",
-                    "org.gnome.Calendar",
+                    "microsoft-edge-stable",
+                    "code",
+                    "kitty",
                     "spotify",
                 ],
             ]),
@@ -185,7 +185,7 @@ const options = mkOptions(OPTIONS, {
     quicksettings: {
         avatar: {
             image: opt(`/var/lib/AccountsService/icons/${Utils.USER}`),
-            size: opt(70),
+            size: opt(60),
         },
         width: opt(380),
         position: opt<"left" | "center" | "right">("right"),
